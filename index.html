@@ -1,10 +1,424 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Résumé</title>
+  <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+</head>
+
+<body>
+  <main>
+    <article>
+      <div class="page" style="border-color: midnightblue;">
+        <div class="stackable grid">
+          <div class="row">
+            <div class="three wide center aligned column">
+              <div class="avatar-wrapper">
+                <object class="avatar" data="./assets/images/avatar.jpg" role="img"
+                  aria-label="My profile picture"></object>
+              </div>
+            </div>
+            <div class="thirteen wide column">
+              <div class="stackable grid">
+                <div class="sixteen wide column">
+                  <h1 class="name">Travis Scott</h1>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://www.instagram.com/travisscott" rel="author" class="instagram">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path
+                            d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z" />
+                        </svg>
+                        <span>travisscott</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/trvisxx" rel="author" class="twitter">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path
+                            d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M17.05,9.514 c0,0.086,0,0.171,0,0.343c0,3.257-2.486,7.029-7.029,7.029c-1.371,0-2.657-0.429-3.771-1.114c0.171,0,0.429,0,0.6,0 c1.114,0,2.229-0.429,3.086-1.029c-1.114,0-1.971-0.771-2.314-1.714c0.171,0,0.343,0.086,0.429,0.086c0.257,0,0.429,0,0.686-0.086 c-1.114-0.257-1.971-1.2-1.971-2.4c0.343,0.171,0.686,0.257,1.114,0.343c-0.686-0.6-1.114-1.286-1.114-2.143 c0-0.429,0.086-0.857,0.343-1.2c1.2,1.457,3,2.486,5.057,2.571c0-0.171-0.086-0.343-0.086-0.6c0-1.371,1.114-2.486,2.486-2.486 c0.686,0,1.371,0.257,1.8,0.771c0.6-0.086,1.114-0.343,1.543-0.6c-0.171,0.6-0.6,1.029-1.114,1.371 c0.514-0.086,0.943-0.171,1.457-0.429C17.907,8.743,17.479,9.171,17.05,9.514z" />
+                        </svg>
+                        <span>trvisxx</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/travisscottlaflame" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path
+                            d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
+                        </svg>
+                        <span>travisscottlaflame</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/user/TravisScottXX" rel="author" class="youtube">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                          <path
+                            d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z" />
+                        </svg>
+                        <span>TravisScottXX</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sixteen wide mobile only column">
+                  <div class="divider"></div>
+                </div>
+                <div class="sixteen wide column">
+                  <h2>Résumé</h2>
+                  <p>&mdash; Hello! Who I'm? I'm an American hip hop recording artist and record producer, influenced by
+                    Kid Cudi, M.I.A., Kanye West, Toro y Moi, and T.I., and my 2013 Owl Pharaoh was compared by Spin
+                    magazine to that of Cudi's Man on the Moon II: The Legend of Mr. Rager.</p>
+                  <p style="opacity: 0.75;">
+                    <strong style="margin-right: 0.0625em;">*</strong>
+                    I was born on Thursday April 30th 1992, in Houston, Texas, United States.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide column">
+              <div class="fat divider"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ten wide column">
+              <section>
+                <h3>TimeLine</h3>
+                <ul class="timeline">
+
+                  <li class="highlighted">
+                    <p><strong>2008: The Graduates Ep Released</strong></p>
+                    <ul>
+                      <li>In 2008, I was then known as Jacques Webster, and was part of a group called The Graduates.
+                      </li>
+                      <li>The other member of the group was my longtime friend, Chris Holloway.</li>
+                      <li>We released our first and only EP on MySpace. The EP was untitled.)</li>
+                      <li>The group split up less than a year later, to work on other projects.</li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2009 - 2012: Formed The Classmates</strong></p>
+                    <ul>
+                      <li>I left The Graduates behind and formed The Classmates.
+                      </li>
+                      <li>The Classmates consisted of me and one of his classmates who went by the moniker, OG Chess.
+                      </li>
+                      <li>I and OG Chess released "Buddy Rich" and "Cruis’n USA".</li>
+                      <li>We lasted longer than The Classmates but ended up disbanding in 2012.</li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2012: Lights (Love Sick) And Meeting T.I.</strong></p>
+                    <ul>
+                      <li>When The Classmates disbanded, I traveled between New York, Houston, and Los Angeles.
+                      </li>
+                      <li>When I dropped out of college, my parents kicked me out of their home and cut me off
+                        financially.
+                      </li>
+                      <li>In Los Angeles, I was couch-surfing with a friend when T.I. noticed one of his songs called,
+                        “Lights (Love Sick)”.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2013: Record Deal</strong></p>
+                    <ul>
+                      <li>When T.I. noticed one of my songs, “Lights (Love Sick)”, he asked for a meeting.
+                      </li>
+                      <li> During the meeting,T.I. and I messed around in the studio, with T.I. freestyling over one of
+                        the songs I produced.
+                      </li>
+                      <li> This meeting led to i being signed to his record label, Grand Hustle, and being under Kanye’s
+                        labelwing,G.O.O.D. Music.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2013: Owl Pharaoh</strong></p>
+                    <ul>
+                      <li>In 2013, I released my first solo project, "Owl Pharaoh", on iTunes, as a free download.
+                      </li>
+                      <li>The mixtape was supposed to be released a year earlier, but it kept getting delayed due to
+                        sample clearance issues, among other problems.
+                      </li>
+                      <li> I collaborated with many big names on the mixtape, including Kanye West, 2 Chainz, and T.I.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2014: First Grammy Nomination</strong></p>
+                    <ul>
+                      <li>Based on the photo above, 2014 was a very unique time in Travis’s life.
+                      </li>
+                      <li>Did he even have a publicist or an agent at this point? Hopefully, someone on his team taught
+                        him how to pose for the red carpetafter this!
+                      </li>
+                      <li> I collaborated with many big names on the mixtape, including Kanye West, 2 Chainz, and T.I.
+                      </li>
+                      <br>
+                      <li>In 2014, I was nominated for my first Grammy for Best Rap Song for “New Slaves”- a Kanye West
+                        song.I was a writer on the project.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>
+                        2015: The Rodeo Tour
+                      </strong></p>
+                    <ul>
+                      <li>After "Owl Pharaoh", my next mixtape was "Days Before Rodeo", which was released in 2015.
+                      </li>
+                      <li>I was joined by Young Thug and Metro Boomin, with special appearances by Kanye West and Chris
+                        Brown.
+                      </li>
+                      <li>I collaborated with many big names on the mixtape, including Kanye West, 2 Chainz, and T.I.
+                      </li>
+                      <li>The tour lasted one month.
+                      </li>
+                      <a href="https://www.youtube.com/watch?v=rDe9BfOTR0E">
+                        Video from the concert
+                      </a>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2016: Birds In The Trap</strong></p>
+                    <ul>
+                      <li>A year after "Days Before Rodeo", I released "Birds in the Trap".
+                      </li>
+                      <li>I released the album during his third episode on .wav radio.
+                      </li>
+                      <li> It later dropped on iTunes and Apple Music. It was my first number one album to hit the US
+                        Billboard 200.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2017: Cactus Jack Records</strong></p>
+                    <ul>
+                      <li>In 2017, I announced his own record label, called Cactus Jack Records.
+                      </li>
+                      <li> I want first and foremost to help other artists, launch new names, to provide opportunities.
+                        I want to do for them what
+                        happened to me, but better.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2018: Stormi Webster</strong></p>
+                    <ul>
+                      <li>In 2018, my life changed when his first child, Stormi Webster, was born.
+                      </li>
+                      <li>She even has her own room in every stadium where I perform.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>
+                        2018: Astroworld
+                      </strong></p>
+                    <ul>
+                      <li>2018 was a big year for me. In 2018, my daughter was born, I gathered multiple Grammy
+                        nominations,
+                        and the biggest album of my career, "Astroworld", was dropped.
+                      </li>
+                      <li> The album debuted at number one on
+                        the Billboard charts.
+                      </li>
+                      <li>My song, “Sicko Mode”, became my highest-charting single.
+                      </li>
+                      <a href="https://music.apple.com/ru/album/astroworld/1421241217">
+                        Album link
+                      </a>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>2019: Look Mom I Can Fly</strong></p>
+                    <ul>
+                      <li>Many artists, from Lady Gaga to Taylor Swift to Beyoncé, have deals with Netflix. I joined
+                        this
+                        group of heavy-hitting artists when Netflix bought my documentary, called "Look Mom I Can Fly".
+                      </li>
+                      <li> The
+                        documentary showed clips, from my childhood to Stormi being born to the Grammys.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="highlighted">
+                    <p><strong>
+                        2020: Fortnite Concert
+                      </strong></p>
+                    <ul>
+                      <li>On April 23, I held a virtual concert for my fans through the video game, Fortnite. In the
+                        game, my avatar performed a ten-minute concert to over twelve million players.
+                      </li>
+                      <li>The concert was replayed four times over three days, with 27.7 million Fortnite gamers
+                        watching more than 45.8 million times.
+                      </li>
+                      <li>This isn’t the first-ever virtual concert, but it is by far the most successful one.
+                      </li>
+                      <a href="https://www.youtube.com/watch?v=wYeFAlVC8qU">
+                        Video from the concert
+                      </a>
+                    </ul>
+                  </li>
+                  <li>
+                    <h3>This is a video from my concert in Donetsk</h3>
+                    <iframe width="100%" height="500vh" src="https://www.youtube.com/embed/RwzPY2Ag37U?controls=0"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </li>
+
+
+                </ul>
+            </div>
+            <div class="six wide column">
+
+              <section>
+                <h3>Languages</h3>
+                <p class="tags small">
+                  <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span>
+                </p>
+              </section>
+
+              <section>
+                <h3>Skills</h3>
+                <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING
+                  SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING
+                  DEBATING ADVISING PRESBYTERIANING</p>
+              </section>
+
+              <section>
+                <h3>Character</h3>
+                <p>I'm a person of thinking and planning.
+                  Having well-developed business mindset, I'm good at making effective plans, setting goals and working
+                  out the best way to achieve them.
+                </p>
+                <p>
+                  I may also have excellent organisational and administrative skills, but that depends on how often I
+                  skips the details in order not to lose sight of the bigger picture.
+                </p>
+
+              </section>
+
+              <section>
+                <h3>Likes&#x1f603;</h3>
+                <p>MUSIC, TRAVELLING, PERFORM AT CONCERTS
+                </p>
+              </section>
+
+              <section>
+                <h3>Dislikes&#x1f61e;</h3>
+                <p>UNIVERSITY STUDIES, RACISM
+                </p>
+              </section>
+
+              <section>
+                <h3>Facts about me</h3>
+                <ol class="inverted">
+
+                  <li>
+                    <p><strong>I Left School To Pursue Music</strong></p>
+                    <ul>
+                      <li>Getting a start in music was certainly not easy for me.</li>
+                      <li>Once I realized my work at the University
+                        was going nowhere, I decided to drop out of school and head to New York City.</li>
+                      <li> It was there I would begin seriously working on music, dedicating all of my time to
+                        networking and
+                        getting my material out there.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <p><strong>I Used to Date Rhianna</strong></p>
+                    <ul>
+                      <li>One of the biggest controversies of my career is that I dated Rhianna for a short period of
+                        time.</li>
+                      <li>The details of their time together are mostly unknown, but many outlets and newspapers have
+                        speculated about it.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <p><strong>I Was A Piano Player & Drummer</strong></p>
+                    <ul>
+                      <li>
+                        I has always been interested in music and has played the drums since I was three years old.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <p><strong>I Originally Planned to Self-Release His Music</strong></p>
+                    <ul>
+                      <li>It took I a while to get someone else to release my music.</li>
+                      <li>This is why in 2011 he announced that my first release would be an EP called Owl Pharaoh, a
+                        collection of songs that would eventually become a full-length mixtape once I was discovered by
+                        Kanye West.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <p><strong>My First Band Was Called The Graduates</strong></p>
+                    <ul>
+                      <li>When I was 16, I formed a band with a few of my friends called The Graduates.</li>
+                      <li>The band did not stick around for long, though, breaking up when the rapper went to college
+                        only two years later.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <p><strong>I Isn’t Afraid to Make Big Gestures for Love</strong></p>
+                    <ul>
+                      <li>In my current relationship with Kylie Jenner, I have shown that I would do anything for a
+                        serious romantic moment.</li>
+                      <li>For example, on Kylie's birthday, I ordered an entire orchestra to surprise her with a
+                        concert.</li>
+                    </ul>
+                  </li>
+
+              </section>
+              <section>
+                <h3>Education</h3>
+                <ul>
+                  <li> <a href="https://en.wikipedia.org/wiki/University_of_Texas_at_San_Antonio">University of Texas at
+                      San
+                      Antonio</a></li>
+                </ul>
+              </section>
+
+              <section>
+                <h3>Articles</h3>
+                <p>None published <sup><em>yet</em></sup></p>
+              </section>
+
+
+
+            </div>
+          </div>
+    </article>
+  </main>
+  <footer>
+    <footer>
+      <h1>“That's all Folks )0)”&nbsp;&#9732;&#65039;</h3>
+    </footer>
+  </footer>
+</body>
+<script></script>
+
 </html>
